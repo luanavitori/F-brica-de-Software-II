@@ -1,29 +1,31 @@
 *{
     margin: 0;
     padding: 0;
-    top: 0;
+    top: auto;
+    box-sizing: border-box;
+
 }
 
 body {
-    background-color: #00435D;
+    background-color: #217fa4;
     color: white;
     font-family: Aoboshi One;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: 0;
 }
 h1 {
     font-family: Sorts Mill Goudy;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 3%;
     color: #ffffff;
+    margin-top: 60px;
 }
 form {
-    background-color: #003A50; 
-    padding: 20px;
+    background-color: #00435D; 
+    padding: 40px;
     border-radius: 12px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
@@ -45,7 +47,7 @@ button {
     padding: 10px;
     border: none;
     border-radius: 12px; 
-    background-color: #007acc;
+    background-color: #217fa4;
     color: white;
     font-size: 16px;
     cursor: pointer;
