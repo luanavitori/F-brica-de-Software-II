@@ -2,12 +2,32 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adicionar Eventos</title>
+    <title>Cadastro de Eventos</title>
     <link rel="stylesheet" href="css/style1.css">
 </head>
 <body>
-    <p>Cadastrar Eventos</p>
+
+    <h1>Cadastro de Eventos</h1>
     
+    <form action="/submit-event" method="post" enctype="multipart/form-data">
+        <label for="event-name">Nome do Evento:</label>
+        <input type="text" id="event-name" name="event-name" required>
+        
+        <label for="event-date">Data do Evento:</label>
+        <input type="date" id="event-date" name="event-date" required>
+        
+        <label for="event-location">Local do Evento:</label>
+        <input type="text" id="event-location" name="event-location" required>
+        
+        <label for="event-description">Descrição do Evento:</label>
+        <textarea id="event-description" name="event-description" rows="4" required></textarea>
+        
+        <label for="event-image">Imagem do Evento:</label>
+        <input type="file" id="event-image" name="event-image" accept="image/*" required>
+        
+        <button type="submit">Cadastrar Evento</button>
+    </form>
+
 </body>
 </html>
+
