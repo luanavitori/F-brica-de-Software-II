@@ -1,0 +1,88 @@
+
+.container {
+  background-color: #217fa4;
+  color: white;
+  font-family: "Aoboshi One", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+.h1 {
+  font-family: "Sorts Mill Goudy", serif;
+  text-align: center;
+  margin-bottom: 3%;
+  color: #ffffff;
+  margin-top: 60px;
+}
+
+.form {
+  background-color: #00435D;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 450px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+
+}
+
+.label {
+  margin: 10px 0 5px;
+  color: #ffffff;
+  font-size: 17px;
+
+}
+
+.input {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  width: 100%;
+  font-size: 18px; 
+  height: 5px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #217fa4;
+}
+
+
+.button {
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  background-color: #217fa4;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.3s;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #005f99;
+}
+
+@media (max-width: 500px) {
+  .form {
+      width: 90%;
+      height: auto;
+  }
+}
+
