@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Alterar Login",
-  description: "Amavi",
+  description: "AMAVI",
 
 };
 
