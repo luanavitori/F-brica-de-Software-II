@@ -1,4 +1,4 @@
-"use client"; // Adiciona esta linha no início
+"use client"; 
 
 import React, { useState } from 'react';
 import styles from './page.module.css';
@@ -19,7 +19,8 @@ function AlterarLogin() {
       <form onSubmit={handleSubmit} className={styles.form}>
         <div className={styles.inputGroup}>
           <label className={styles.label} htmlFor="email">Email/Número de Celular:</label>
-          <input className={styles.input}
+          <input
+            className={styles.input}
             type="text"
             id="email"
             name="email"
@@ -31,7 +32,8 @@ function AlterarLogin() {
 
         <div className={styles.inputGroup}>
           <label className={styles.label} htmlFor="senha">Nova Senha:</label>
-          <input className={styles.input}
+          <input
+            className={styles.input}
             type="password"
             id="senha"
             name="senha"

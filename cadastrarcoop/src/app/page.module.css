@@ -1,4 +1,3 @@
-
 .container {
   background-color: #217fa4;
   color: white;
@@ -10,8 +9,6 @@
   height: 100vh;
 }
 
-
-
 .h1 {
   font-family: "Sorts Mill Goudy", serif;
   text-align: center;
@@ -21,46 +18,31 @@
 }
 
 .form {
-  background-color: #00435D;
-  padding: 40px;
-  border-radius: 10px;
+  background-color: #00435d;
+  padding: 25px;
+  border-radius: 12px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
-  width: 450px;
-  height: 300px;
+  width: 400px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-}
-
-.inputGroup {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 15px;
-
 }
 
 .label {
-  margin: 10px 0 5px;
+  margin: 2px 0 2px;
   color: #ffffff;
   font-size: 18px;
-
 }
 
 .input {
-  padding: 15px;
+  padding: 5px;
   border: 1px solid #ddd;
   border-radius: 12px;
+  margin-bottom: 15px;
   width: 100%;
-  font-size: 18px; 
-  height: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
 }
-
-.input:focus {
-  outline: none;
-  border-color: #217fa4;
-}
-
 
 .button {
   padding: 10px;
@@ -72,7 +54,6 @@
   cursor: pointer;
   width: 100%;
   transition: background 0.3s;
-  margin-top: 20px;
 }
 
 .button:hover {
@@ -81,8 +62,6 @@
 
 @media (max-width: 500px) {
   .form {
-      width: 90%;
-      height: auto;
+    width: 90%;
   }
 }
-
